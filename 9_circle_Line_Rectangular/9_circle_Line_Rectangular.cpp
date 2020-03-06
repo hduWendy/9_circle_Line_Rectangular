@@ -26,8 +26,8 @@ int main()
 	cv::Rect rect;
 	rect.x = 10;
 	rect.y = 50;
-	rect.width;
-	rect.height;
+	rect.width=6;
+	rect.height=6;
 	rectangle(dispMat, rect, CV_RGB(255, 0, 0), -1, 8, 0);
 
 	cv::imshow("dispMat", dispMat); //չʾͼƬ
